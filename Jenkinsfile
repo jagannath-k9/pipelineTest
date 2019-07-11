@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'go build -o main'
+        sh 'sudo go build -o main'
       }
     }
     stage('DockerBuild') {
