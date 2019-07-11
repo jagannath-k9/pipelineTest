@@ -2,6 +2,6 @@ FROM golang
 
 WORKDIR /
 
-COPY main /
+COPY pipelineTest /
 
-CMD ./main
+CMD ./pipelineTest
